@@ -12,9 +12,10 @@ import static org.hamcrest.Matchers.greaterThan;
 import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
 import static org.hamcrest.core.Every.everyItem;
 
-public class HamcrestListMatcherExamples {
+public class TestHamcrest {
+
 	@Test
-	public void listShouldInitiallyBeEmpty() {
+	public void testList() {
 		List<Integer> list = Arrays.asList(5, 2, 4);
 
 		assertThat(list, hasSize(3));

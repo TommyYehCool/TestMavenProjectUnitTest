@@ -9,7 +9,8 @@ import org.junit.Test;
 
 import com.exfantasy.object.Guest;
 
-public class TestGuestHamcrest {
+public class TestHamcrestMatcher {
+
 	@Test
 	public void testGenerate() {
 		Guest guest = new Guest();
